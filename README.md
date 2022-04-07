@@ -33,6 +33,7 @@ $number = 4
 #Se mostrara por pantalla el string "El numero es:" y a continuancion se concadena  con la variable anterior
 Write-Host "The number is: " $number
 
+![imagen](https://github.com/R4F31/Practica-de-Powershell.-Analizar-Scripts/blob/main/AnalizarScripts/1.PNG)
 
 ## Ejercicio 2
 
@@ -87,6 +88,7 @@ foreach ($character in $stringOfCharacters.ToCharArray()) {
 
 $stringOfCharacters.ToCharArray() | ForEach-Object { Write-Host "$_" }
 
+![imagen](https://github.com/R4F31/Practica-de-Powershell.-Analizar-Scripts/blob/main/AnalizarScripts/2.PNG)
 
 #Ejercicio 3
 
@@ -320,3 +322,7 @@ switch ($favouriteColour) {
     }
     default { "I dont recognise that colour" }
 }
+
+![imagen](https://github.com/R4F31/Practica-de-Powershell.-Analizar-Scripts/blob/main/AnalizarScripts/3,1.PNG)
+
+![imagen](https://github.com/R4F31/Practica-de-Powershell.-Analizar-Scripts/blob/main/AnalizarScripts/3,2.PNG)
