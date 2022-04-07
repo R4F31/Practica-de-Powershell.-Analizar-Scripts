@@ -40,8 +40,8 @@ Write-Host "The number is: " $number
 
 [int]$repeat = 5
 
-#Con un bucle for, se escribira por pantalla "hello" 5 veces, hasta condicion sea igual a 5,
-y la variable $counter se ira  incrementando  en 1
+#Con un bucle for, se escribira por pantalla "hello" 6 veces,  ya que se repetira hasta condicion sea igual a 5,
+la variable $counter se ira  incrementando  en 1
 
 for ($counter = 0; $counter -lt $repeat; $counter++) {
     Write-Host "hello"
@@ -71,7 +71,7 @@ do {
 while ($counter -lt $repeat) 
 
 
-# Se declara una variable de tipo string
+#Se declara una variable de tipo string
 
 [string]$stringOfCharacters = "PowerShell for Beginners"
 
