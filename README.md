@@ -314,11 +314,9 @@ switch ($favouriteColour) {
         "Your favourite colour is Red"
         "I like red too."
     }
- 
     "Blue" {
         "Your favourite colour is Blue"
         "I like Blue too."
     }
- 
     default { "I dont recognise that colour" }
 }
